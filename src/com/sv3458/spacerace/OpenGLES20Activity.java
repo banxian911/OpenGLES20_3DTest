@@ -85,7 +85,7 @@ public class OpenGLES20Activity extends Activity {
 		}*/
     	if (i <= 5) {
 			i++;
-			Toast.makeText(this,R.string.back_toast, Toast.LENGTH_SHORT).show();
+			//Toast.makeText(this,R.string.back_toast, Toast.LENGTH_SHORT).show();
 			return;
 		}
     	super.onBackPressed();
